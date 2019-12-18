@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat207live</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link
+    rel="stylesheet"
+    href="http://fonts.googleapis.com/css?family=Open+Sans"
+    />
+</head>
+<body>
+    <header>
+ <img src="logochat.jpg" alt="Logo" width="85px" height="85px">
+        <h1 class="header-title">Room 207</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>
+        <Section id="display-content"></Section>
+    </main>
+   
+
+<!--Modal Dialog(hidden by default)-->
+<div class="modal" id="modal-dialog">
+    <div class="modal-content">
+        <Section>
+            <h2>ChatLive Username</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </Section>
+        <section>
+            <h2>Comments</h2>
+            <textarea name="content" id="edit-content-text" cols="80" rows="8"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+        <footer>
+            <button id="cancel-button">Cancel</button>
+            <button id="save-button">Save</button>
+        </footer>
+    </div>
+</div>
+<div class="img-container">
+    <img src="topic.jpg" alt="Topic" style="width:500px">
+</div>
+<div id="modal-backdrop"></div>
+    <script src="js/Scripts.js"></script>
+    </body>
+</html>
+<footer>
+    Copyright Chat207Live24/24
+</footer>
+
+
+
